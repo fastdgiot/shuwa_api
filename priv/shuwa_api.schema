@@ -1,0 +1,4 @@
+{mapping, "app.forbidden", "shuwa_api.app_forbidden", [
+  {datatype, string},
+  {default, ""}
+]}.

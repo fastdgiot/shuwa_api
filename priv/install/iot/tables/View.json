@@ -1,0 +1,54 @@
+[
+  {
+    "className": "View",
+    "fields": {
+      "title": {
+        "type": "String",
+        "required": false
+      },
+      "config": {
+        "type": "Object",
+        "required": false
+      },
+      "product": {
+        "targetClass": "Product",
+        "type": "Pointer",
+        "required": false
+      },
+      "device": {
+        "targetClass": "Device",
+        "type": "Pointer"
+      },
+      "type": {
+        "type": "String",
+        "required": false
+      }
+    },
+    "classLevelPermissions": {
+      "find": {
+        "*": true
+      },
+      "get": {
+        "*": true
+      },
+      "count": {
+        "*": true
+      },
+      "create": {
+        "*": true
+      },
+      "update": {
+        "*": true
+      },
+      "delete": {
+        "*": true
+      },
+      "addField": {
+        "role:root": true
+      },
+      "protectedFields": {
+        "*": []
+      }
+    }
+  }
+]

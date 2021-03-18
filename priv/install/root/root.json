@@ -1,0 +1,47 @@
+[
+  {
+    "name": "root",
+    "ACL": {
+      "role:root": {
+        "read": true,
+        "write": true
+      }
+    },
+    "tag": {
+      "appconfig": {
+        "file": "http://127.0.0.1:1250/shapes/upload",
+        "home": "D:/shuwa/shuwa_data_center/datacenter/file/files",
+        "rest": "http://127.0.0.1:5080/iotapi",
+        "topo": "http://127.0.0.1:1350/",
+        "secret": "TTY4NDMyMTExNjAyNTU1ODI4MTc5",
+        "expires": 180000,
+        "graphql": "http://127.0.0.1:5080/iotapi/graphql"
+      }
+    },
+    "roles": [
+    ],
+    "rules": [
+      "*"
+    ],
+    "users": [
+      "root"
+    ],
+    "menus": [
+      "定制",
+      "用户管理",
+      "角色管理",
+      "接口管理",
+      "菜单管理",
+      "岗位管理",
+      "应用管理",
+      "系统",
+      "性能监控",
+      "集群管理",
+      "插件管理",
+      "解码管理",
+      "节点管理"
+    ],
+    "alias": "超级管理员",
+    "desc": "系统最高权限,不受任何限制"
+  }
+]

@@ -1,0 +1,175 @@
+[
+  {
+    "name": "name",
+    "alias": "alias",
+    "desc": "desc",
+    "tag": {
+      "appconfig": {
+        "file": "http://127.0.0.1:1250/shapes/upload",
+        "home": "D:/shuwa/shuwa_data_center/datacenter/file/files",
+        "rest": "http://127.0.0.1:5080/iotapi",
+        "topo": "http://127.0.0.1:1350/",
+        "secret": "TTY4NDMyMTExNjAyNTU1ODI4MTc5",
+        "expires": "180000",
+        "graphql": "http://127.0.0.1:5080/iotapi/graphql"
+      }
+    },
+    "roles": [
+      "admin"
+    ],
+    "menus":[
+      "分组",
+      "通道",
+      "设备",
+      "产品",
+      "规则"
+    ],
+    "rules": [
+      "GET_USERS_ID",
+      "GET_USERS_ME",
+      "POST_GENERATE_API",
+      "GET_TOKEN",
+      "POST_TOKEN",
+      "POST_IOTAPP",
+      "GET_UPLOAD_TOKEN",
+      "GET_CAPTURE",
+      "POST_RELATION",
+      "POST_USER",
+      "DELETE_USER",
+      "PUT_USER",
+
+      "GET_TASK",
+      "POST_REPORTTEMP",
+      "POST_REPORT",
+      "DELETE_REPORT_REPORTID",
+      "POST_POINT",
+      "GET_POINT",
+      "GET_ROLETREE",
+      "GET_DEVICE_PID_ADDR",
+      "GET_PRODUCT_CID_PID",
+
+      "PUT_CLASSES_USER_ID",
+      "POST_UPLOAD",
+      "GET_NODES",
+      "PUT_ADD_PERMISSION",
+      "GET_PLUGIN",
+      "POST_PLUGIN_APP",
+      "GET_DEV_ADDR",
+      "POST_RESOURCE_TYPE",
+      "PUT_ADD_MENU",
+      "POST_CONTROL_CHANNEL",
+      "POST_IMPORT_DATA",
+      "POST_GRAPHQL",
+      "POST_COMPILE",
+      "GET_EVIDENCE",
+      "POST_EVIDENCE",
+      "PUT_EVIDENCE_ID",
+      "DELETE_EVIDENCE_ID",
+      "GET_CERT",
+      "GET_APIHUB",
+      "POST_PRODUCT",
+      "GET_PRODUCT",
+      "POST_BATCH",
+
+      "POST_ROLETEMP",
+      "PUT_ROLETEMP",
+      "GET_ROLETEMP",
+      "DELETE_ROLETEMP",
+
+      "GET_ROLE",
+      "POST_ROLE",
+      "PUT_ROLE",
+      "DELETE_ROLE",
+
+      "GET_BED",
+      "POST_BED",
+
+      "GET_CLASSES_PERMISSION",
+      "GET_CLASSES_USER",
+      "GET_CLASSES_ROLE",
+      "POST_CLASSES_ROLE",
+      "PUT_CLASSES_ROLE_ID",
+      "DELETE_CLASSES_ROLE_ID",
+
+      "GET_CLASSES_MENU",
+      "PUT_CLASSES_MENU_ID",
+
+      "GET_CLASSES_LICENSE",
+      "PUT_CLASSES_LICENSE_ID",
+
+      "GET_CLASSES_APP",
+      "GET_CLASSES_APP_ID",
+      "POST_CLASSES_APP",
+      "PUT_CLASSES_APP_ID",
+      "DELETE_CLASSES_APP_ID",
+
+      "GET_CLASSES_PROJECT",
+      "GET_CLASSES_PROJECT_ID",
+      "POST_CLASSES_PROJECT",
+      "PUT_CLASSES_PROJECT_ID",
+      "DELETE_CLASSES_PROJECT_ID",
+
+      "GET_CLASSES_PRODUCT",
+      "GET_CLASSES_PRODUCT_ID",
+      "POST_CLASSES_PRODUCT",
+      "PUT_CLASSES_PRODUCT_ID",
+      "DELETE_CLASSES_PRODUCT_ID",
+
+      "GET_CLASSES_INSTALLATION",
+      "GET_CLASSES_INSTALLATION_ID",
+      "POST_CLASSES_INSTALLATION",
+      "PUT_CLASSES_INSTALLATION_ID",
+      "DELETE_CLASSES_INSTALLATION_ID",
+
+      "GET_CLASSES_DEVICE",
+      "GET_CLASSES_DEVICE_ID",
+      "POST_CLASSES_DEVICE",
+      "PUT_CLASSES_DEVICE_ID",
+      "DELETE_CLASSES_DEVICE_ID",
+
+      "GET_CLASSES_TAG",
+      "POST_CLASSES_TAG",
+      "PUT_CLASSES_TAG_ID",
+      "DELETE_CLASSES_TAG_ID",
+
+      "GET_CLASSES_DEPARTMENT",
+      "GET_CLASSES_DEPARTMENT_ID",
+      "POST_CLASSES_DEPARTMENT",
+      "PUT_CLASSES_DEPARTMENT_ID",
+      "DELETE_CLASSES_DEPARTMENT_ID",
+      "DELETE_CLASSES_DEPARTMENT",
+
+      "GET_CLASSES_DICT",
+      "GET_CLASSES_DICT_ID",
+      "POST_CLASSES_DICT",
+      "PUT_CLASSES_DICT_ID",
+      "DELETE_CLASSES_DICT_ID",
+      "DELETE_CLASSES_DICT",
+
+      "GET_CLASSES_RESOURCE",
+      "GET_CLASSES_RESOURCE_ID",
+
+      "GET_CLASSES_CHANNEL",
+      "POST_CLASSES_CHANNEL",
+      "PUT_CLASSES_CHANNEL_ID",
+      "DELETE_CLASSES_CHANNEL_ID",
+
+      "GET_CLASSES_CROND",
+      "PUT_CLASSES_CROND_ID",
+      "POST_CLASSES_CROND",
+      "DELETE_CLASSES_CROND_ID",
+
+      "GET_CLASSES_INSTRUCT",
+      "GET_CLASSES_INSTRUCT_ID",
+      "PUT_CLASSES_INSTRUCT_ID",
+      "POST_CLASSES_INSTRUCT",
+      "DELETE_CLASSES_INSTRUCT_ID",
+
+      "GET_CLASSES_EVIDENCE",
+      "GET_CLASSES_EVIDENCE_ID",
+      "PUT_CLASSES_EVIDENCE_ID",
+      "POST_CLASSES_EVIDENCE",
+      "DELETE_CLASSES_EVIDENCE_ID"
+    ]
+  }
+]

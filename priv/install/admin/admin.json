@@ -1,0 +1,48 @@
+[
+  {
+    "name": "admin",
+    "ACL": {
+      "role:admin": {
+        "read": true,
+        "write": true
+      }
+    },
+    "alias": "系统管理员",
+    "desc": "系统第二高权限,能操作绝大部分操作",
+    "tag": {
+      "appconfig": {
+        "file": "http://127.0.0.1:1250/shapes/upload",
+        "home": "D:/shuwa/shuwa_data_center/datacenter/file/files",
+        "rest": "http://127.0.0.1:5080/iotapi",
+        "topo": "http://127.0.0.1:1350/",
+        "secret": "TTY4NDMyMTExNjAyNTU1ODI4MTc5",
+        "expires": 180000,
+        "graphql": "http://127.0.0.1:5080/iotapi/graphql"
+      }
+    },
+    "roles": [
+      "root"
+    ],
+    "users": [
+      "admin"
+    ],
+    "rules": [
+      "*"
+    ],
+    "menus": [
+      "定制",
+      "用户管理",
+      "角色管理",
+      "接口管理",
+      "菜单管理",
+      "岗位管理",
+      "应用管理",
+      "系统",
+      "性能监控",
+      "集群管理",
+      "插件管理",
+      "解码管理",
+      "节点管理"
+    ]
+  }
+]

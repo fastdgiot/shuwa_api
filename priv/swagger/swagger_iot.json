@@ -1,0 +1,177 @@
+{
+            "definitions": {
+            },
+            "paths": {
+              "/dev/{addr}": {
+                "get": {
+                  "description": "设备查询",
+                  "parameters": [
+                    {
+                      "description": "设备地址",
+                      "in": "path",
+                      "name": "addr",
+                      "required": true,
+                      "type": "string"
+                    },
+                    {
+                      "description": "设备类型",
+                      "in": "query",
+                      "name": "productId",
+                      "required": true,
+                      "type": "string"
+                    }
+                  ],
+                  "responses": {
+                    "200": {
+                      "description": "Returns instance data"
+                    },
+                    "404": {
+                      "description": "object not found",
+                      "schema": {
+                        "$ref": "#/definitions/Error"
+                      }
+                    }
+                  },
+                  "summary": "获取设备当前状态",
+                  "tags": [
+                    "Device"
+                  ]
+                }
+              },
+              "/devs/{vcon}": {
+                "get": {
+                  "description": "根据网关查询设备列表",
+                  "parameters": [
+                    {
+                      "description": "网关地址",
+                      "in": "path",
+                      "name": "vcon",
+                      "required": true,
+                      "type": "string"
+                    },
+                    {
+                      "description": "设备类型",
+                      "in": "query",
+                      "name": "devType",
+                      "required": true,
+                      "type": "string"
+                    },
+                    {
+                      "description": "设备:devs | 网关:vcons",
+                      "enum": [
+                        "devs",
+                        "vcons"
+                      ],
+                      "in": "query",
+                      "name": "nodeType",
+                      "required": true,
+                      "type": "string"
+                    },
+                    {
+                      "description": "起始行数",
+                      "in": "query",
+                      "name": "start",
+                      "required": true,
+                      "type": "number"
+                    },
+                    {
+                      "description": "从起始开始查找几条",
+                      "in": "query",
+                      "name": "length",
+                      "required": true,
+                      "type": "number"
+                    },
+                    {
+                      "description": "模糊条件查找",
+                      "in": "query",
+                      "name": "keyword",
+                      "required": false,
+                      "type": "string"
+                    }
+                  ],
+                  "produces": [
+                    "application/json"
+                  ],
+                  "responses": {
+                    "200": {
+                      "description": "Returns instance data"
+                    },
+                    "404": {
+                      "description": "object not found",
+                      "schema": {
+                        "$ref": "#/definitions/Error"
+                      }
+                    }
+                  },
+                  "summary": "查询设备列表",
+                  "tags": [
+                    "Device"
+                  ]
+                }
+              },
+              "/devs": {
+                "get": {
+                  "description": "查询设备列表",
+                  "parameters": [
+                    {
+                      "description": "设备类型",
+                      "in": "query",
+                      "name": "devType",
+                      "required": true,
+                      "type": "string"
+                    },
+                    {
+                      "description": "设备:devs | 网关/集中器:vcons",
+                      "enum": [
+                        "devs",
+                        "vcons"
+                      ],
+                      "in": "query",
+                      "name": "nodeType",
+                      "required": true,
+                      "type": "string"
+                    },
+                    {
+                      "description": "起始行数",
+                      "in": "query",
+                      "name": "start",
+                      "required": true,
+                      "type": "number"
+                    },
+                    {
+                      "description": "从起始开始查找几条",
+                      "in": "query",
+                      "name": "length",
+                      "required": true,
+                      "type": "number"
+                    },
+                    {
+                      "description": "模糊条件查找",
+                      "in": "query",
+                      "name": "keyword",
+                      "required": false,
+                      "type": "string"
+                    }
+                  ],
+                  "produces": [
+                    "application/json"
+                  ],
+                  "responses": {
+                    "200": {
+                      "description": "Returns instance data"
+                    },
+                    "404": {
+                      "description": "object not found",
+                      "schema": {
+                        "$ref": "#/definitions/Error"
+                      }
+                    }
+                  },
+                  "summary": "查询设备列表",
+                  "tags": [
+                    "Device"
+                  ]
+                }
+              }
+  }
+}
